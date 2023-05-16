@@ -56,3 +56,7 @@ body {
     width: 70%;
     font-family: 'Dangrek', cursive;
 }
+
+.text {
+    text-align: center;
+}
