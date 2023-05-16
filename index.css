@@ -35,8 +35,6 @@ body {
     border-bottom: 5px solid #ecf0f1;
     border-color: transparent;
     transition: all 0.5s;
-    font-family: 'Dangrek', cursive;
-    ;
 }
 
 .gap a:hover {
@@ -75,11 +73,6 @@ body {
     color: #2c3e50;
     font-family: 'Dangrek', cursive;
 
-}
-
-.heading-end {
-    font-family: 'Dangrek', cursive;
-    ;
 }
 
 .paragraph {
