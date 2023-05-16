@@ -47,3 +47,8 @@
 .article {
     width: 70%;
 }
+
+.text-align {
+    border-bottom: 5px solid whitesmoke;
+    border-top: 5px solid whitesmoke;
+}
