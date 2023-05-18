@@ -4,6 +4,7 @@ body {
     background-color: antiquewhite;
 }
 
+/* this is css menu >>> */
 .center {
     display: flex;
     justify-content: center;
@@ -39,6 +40,8 @@ body {
     border-bottom: 5px solid #2c3e50;
     padding-bottom: 10px;
 }
+
+/* this is css menu <<< */
 
 .center-cul {
     display: flex;
