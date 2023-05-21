@@ -75,6 +75,12 @@ body {
 
 }
 
+@media screen and (min-width: 360px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
 .paragraph {
     width: 70%;
     font-family: 'Dangrek', cursive;
