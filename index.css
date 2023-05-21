@@ -6,7 +6,6 @@ body {
 
 .cover-body {
     background-color: antiquewhite;
-
 }
 
 .center {
@@ -35,6 +34,7 @@ body {
     border-bottom: 5px solid #ecf0f1;
     border-color: transparent;
     transition: all 0.5s;
+    font-family: 'Dangrek', cursive;
 }
 
 .gap a:hover {
@@ -72,11 +72,14 @@ body {
     border-width: 5px;
     color: #2c3e50;
     font-family: 'Dangrek', cursive;
-
 }
 
-@media screen and (min-width: 360px) {
+@media all and (min-width: 360px) {
     .heading {
+        font-size: 20px;
+    }
+
+    .heading-end {
         font-size: 20px;
     }
 }
