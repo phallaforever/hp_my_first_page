@@ -86,6 +86,11 @@ body {
     .picture {
         width: 200px;
     }
+
+    .image {
+        width: 100px;
+
+    }
 }
 
 .paragraph {
