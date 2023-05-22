@@ -74,13 +74,17 @@ body {
     font-family: 'Dangrek', cursive;
 }
 
-@media all and (min-width: 360px) {
+@media screen and (max-width: 480px) {
     .heading {
         font-size: 20px;
     }
 
     .heading-end {
         font-size: 20px;
+    }
+
+    .picture {
+        width: 200px;
     }
 }
 
