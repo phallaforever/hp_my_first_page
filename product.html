@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Konkhmer+Sleokchher&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Image/x-con.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+        }
+
+        /* this is css menu >>> */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .gap {
+            gap: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .center a {
+            font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 1.1em;
+            color: #bdc3c7;
+            padding-bottom: 10px;
+            border-bottom: 5px solid #ecf0f1;
+            border-color: transparent;
+            transition: all 0.5s;
+
+        }
+
+        .center a:hover {
+            color: #2c3e50;
+            border-bottom: 5px solid #2c3e50;
+        }
+
+        .center .product {
+            color: #2c3e50;
+            border-bottom: 5px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+
+        /* this is contianer */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: antiquewhite;
+        }
+
+        .card {
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .item-card {
+            width: 200px;
+            height: auto;
+            margin: 10px 10px;
+            background-color: rgb(229, 229, 229);
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            position: relative;
+            transition: .5s;
+        }
+
+        .item-card:hover {
+            background-color: rgb(132, 132, 132);
+            color: white;
+            transition: all o.5s ease;
+            transform: scale(1.06);
+        }
+
+        .tem-card:active {
+            transition: .1s;
+            transform: scale(1.07);
+        }
+
+        .image {
+            border-radius: 15px 15px 0 0;
+        }
+
+        .card-1 {
+            height: 150px;
+            background-image: url(image/lychee-fruit.jpg);
+            background-size: cover;
+        }
+
+        .card-2 {
+            height: 150px;
+            background-image: url(image/Pomelo_fruit.jpg);
+            background-size: cover;
+        }
+
+        .card-3 {
+            height: 150px;
+            background-image: url(image/Rambutan.jpg);
+            background-size: cover;
+        }
+
+        .item-card h2 {
+            text-align: center;
+            font-size: 1rem;
+            margin: 10px;
+            margin-bottom: 5px;
+            font-family: 'Dangrek', cursive;
+        }
+
+        .item-card p {
+            text-align: center;
+        }
+
+        .describe {
+            font-size: small;
+            color: #9fa4a7;
+            margin: 0;
+            position: relative;
+            font-family: 'Dangrek', cursive;
+        }
+
+        .price {
+            margin: 0;
+            font-family: 'Dangrek', cursive;
+        }
+
+        .item-card a {
+            background: rgb(81, 207, 140);
+            display: inline-block;
+            text-align: center;
+            margin: 15px 50px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: 'Dangrek', cursive;
+
+        }
+
+        .item-card a:hover {
+            background-color: rgb(49, 174, 108);
+            transition: 0.2s;
+            transform: scale(1.06);
+        }
+
+        .item-card a:active {
+            background-color: rgb(3, 200, 255);
+            transition: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center gap">
+        <a href="index.html">ទំព័រដើម</a>
+        <a href="about.html">អំពីយើង</a>
+        <a href="blogs.html">អត្ថបទ</a>
+        <a class="product" href="product.html">ផលិតផល</a>
+
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="item-card">
+                <div class="image card-1"></div>
+                <h2>LyChee</h2>
+                <p class="describe">ផ្លែគូលែន</p>
+                <p class="price">$15.00/Kg</p>
+                <a href="#">Buy</a>
+            </div>
+            <div class="item-card ">
+                <div class="image card-2"></div>
+                <h2>Pomelo</h2>
+                <p class="describe">ផ្លែក្រូចថ្លុង</p>
+                <p class="price">$12.00/Kg</p>
+                <a href="#">Buy</a>
+            </div>
+            <div class="item-card">
+                <div class="image card-3"></div>
+                <h2>Rambutan</h2>
+                <p class="describe">ផ្លែសាវម៉ោវ</p>
+                <p class="price">$20.50/Kg</p>
+                <a href="#">Buy</a>
+            </div>
+        </div>
+        <h1
+            style="font-family: 'Dangrek', cursive; margin: 15px 15px; font-size: large; color: #FD7272; text-align: center;">
+            ចំណាំ៖
+            ឥវ៉ានទាំងនេះអស់ពីស្តុក
+            នឹងមានស្តុកវិញនាពេលឆាប់ៗ (Note: Stock Run
+            Out and will in stock soon)</h1>
+    </div>
+</body>
+
+</html>
